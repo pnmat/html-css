@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:visited{
+  color: red;
+}
+
+.especial{
+  text-decoration: none;
+}
+
+.especial:hover{
+  background-color: black;
+  color: white;
+}
+
+.especial::after{
+  content: ">";
+}
+
+.especial::before{
+  content: "<";
+}
+

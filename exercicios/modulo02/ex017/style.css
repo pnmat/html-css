@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.left{
+  text-align: left;
+}
+
+.right{
+  text-align: right;
+}
+
+.mid{
+  text-align: center;
+}
+
+.justify{
+  text-align: justify;
+}
