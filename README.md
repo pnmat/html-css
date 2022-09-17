@@ -1,4 +1,4 @@
 # html-css
  Estudo HTML e CSS
 
-<a href="https://pnmat.github.io/projeto1"> Projeto 1
+<a href="https://pnmat.github.io/projeto1" targe='_blank' rel='external'> Projeto 1
