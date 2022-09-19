@@ -60,15 +60,14 @@ a:hover{
 }
 
 .fundo{
-  background-color: rgba(51, 51, 51, 0.6);
+  background-color: rgba(51, 51, 51, 0.514);
   padding: 8px;
   display: inline-block;
 }
 
 #img01{
   background-size: cover;
-  background: url('../imagens/background001.jpg') center center no-repeat fixed;
-  
+  background: url('../imagens/background001.jpg') right center no-repeat fixed;
 }
 
 #img02{
