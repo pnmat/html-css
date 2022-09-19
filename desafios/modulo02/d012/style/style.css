@@ -68,7 +68,7 @@ a:hover{
 #img01{
   background-size: cover;
   background: url('../imagens/background001.jpg') center center no-repeat fixed;
-  min-width: 400px;
+  
 }
 
 #img02{
