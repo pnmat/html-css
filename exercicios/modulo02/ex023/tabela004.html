@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela</title>
+  <style>
+    table{
+      border-collapse: collapse;
+    }
+    th, td{
+      border: 1px solid black;
+      padding: 5px;
+    }
+
+    .cnome{
+      background-color: aquamarine;
+    }
+
+    .cgrupo{
+      background-color: beige;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <colgroup>
+      <col class="cnome">
+      <col class="cgrupo" span="2">
+      <col class="cprof">
+    </colgroup>
+    <caption>Cadastro</caption>
+    <tr>
+      <th scope="col">Nome</th>
+      <th scope="col">Sexo</th>
+      <th scope="col">Idade</th>
+      <th scope="col">Profissão</th>
+    </tr>
+    <tr>
+      <td>Ana Maria</td>
+      <td>F</td>
+      <td>25</td>
+      <td>Jornalista</td>
+    </tr>
+    <tr>
+      <td>João </td>
+      <td>M</td>
+      <td>25</td>
+      <td>Designer</td>
+    </tr>
+    <tr>
+      <td>Veronica</td>
+      <td>F</td>
+      <td>29</td>
+      <td>Psicologa</td>
+    </tr>
+    <tr>
+      <td>Marcos</td>
+      <td>M</td>
+      <td>30</td>
+      <td>Publicitario</td>
+    </tr>
+  </table>
+</body>
+</html>
