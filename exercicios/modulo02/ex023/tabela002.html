@@ -25,15 +25,30 @@
       background-color: gray;
       color: white;
     }
+
+    caption{
+      text-align: left;
+      border: 1px solid black;
+      padding: 5px;
+    }
+
+    tbody > tr:nth-child(odd){
+     background-color: white;
+    }
+
+    tbody > tr:nth-child(even){
+      background-color: lightgrey;
+    }
   </style>
 </head>
 <body>
     <table>
+      <caption>População do Brasil</caption>
       <thead>
         <tr>
-          <th>Estado</th>
-          <th>População</th>
-          <th>% da pop. total</th>
+          <th scope="col">Estado</th>
+          <th scope="col">População</th>
+          <th scope="col" style="width: 75px">% da pop. total</th>
         </tr>
       </thead>
       <tbody>
@@ -45,7 +60,7 @@
         <tr>
           <td>Minas Gerais</td>
           <td>21 411 923</td>
-          <td>110,1%/td>
+          <td>10,1%</td>
         </tr>
         <tr>
           <td>Rio de Janeiro</td>
@@ -65,7 +80,7 @@
       </tbody>
       <tfoot>
        
-        <th>Total de Habitantes </th>
+        <th scope="row">Total de Habitantes </th>
         <td>000000000</td>
       </tfoot>
     </table>
