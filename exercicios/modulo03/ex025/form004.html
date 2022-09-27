@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo de Form</title>
+</head>
+<body>
+  <form action="" method="get">
+    <fieldset>
+      <legend>Dados pessoais</legend>
+      <p>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" autocomplete="on">
+      </p>
+      <p>
+        <label for="tel">Telefone:</label>
+        <input type="tel" name="tel" id="tel"
+        pattern="^\(\d{2}\)\d{4,5}-\d{4}$">
+      </p>
+    </fieldset>
+    <!-- Esstudar mais sobre RegEx - Regular Expressions-->
+    <p>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpar">
+    </p>
+  </form>
+</body>
+</html>
