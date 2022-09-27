@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo de form</title>
+</head>
+<body>
+    <form action="" method="post">
+      <p>
+        <label for="cor">Cor: </label>
+        <input type="color" name="cor" id="cor">
+      </p>
+      <p>
+        <label for="nivel">Nível de Satisfação: </label>
+        <input type="range" name="nivel" id="nivel" min="1" max="10" value="1" step="0.5" oninput="display.value=value" onchange="display.value=value">
+        <input type="text" id="display" value="0" readonly>
+      </p>
+      <p>
+        <label for="foto">Foto de Perfil</label>
+        <input type="file" name="foto" id="foto">
+      </p>
+    </form>
+</body>
+</html>
