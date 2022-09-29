@@ -16,8 +16,9 @@ body, htrml{
 }
 
 body{
-  background: black url(../image/back-phone.jpg) no-repeat;
+  background: url(../image/back-phone.jpg) no-repeat;
   background-size: cover;
+  background-position: center center;
 }
 
 main{
@@ -26,3 +27,18 @@ main{
   border-radius: 10px;
   margin: auto;
 }
+
+h1{
+  text-align: center;
+}
+
+img{
+  display: block;
+  margin: auto;
+}
+
+#phone { display: block;}
+#tablet {display: none;}
+#print {display: none;}
+#pc {display: none;}
+#tv {display: none;}
