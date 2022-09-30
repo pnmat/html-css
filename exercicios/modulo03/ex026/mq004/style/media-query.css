@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+/* Todas as Mídias */
+
+@media print{
+  *{
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+main{
+  border: 1px solid black;
+}
+
+  main h1{
+    text-shadow: none;
+    color: black;
+  }
+
+  main::after{
+    content: 'Essa impressão foi feita no Curso em Vídeo';
+    text-decoration: overline;
+    width: 100vw;
+    font-size: 0.9em;
+    padding-left: 10px;
+    display: block;
+  }
+
+  #phone { display: none;}
+  #tablet {display: none;}
+  #print {display: block;}
+  #pc {display: none;}
+  #tv {display: none;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+      background-image: url(../image/back-tablet.jpg);
+      background-size: cover;
+    }
+
+    #phone { display: none;}
+    #tablet {display: block;}
+    #print {display: none;}
+    #pc {display: none;}
+    #tv {display: none;}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  body{
+    background-image: url(../image/back-pc.jpg);
+  }
+
+  #phone { display: none;}
+  #tablet {display: none;}
+  #print {display: none;}
+  #pc {display: block;}
+  #tv {display: none;}
+}
+
+@media screen and (min-width: 1200px) {
+  body{
+    background-image: url(../image/back-tv.jpg);
+  }
+
+  #phone { display: none;}
+  #tablet {display: none;}
+  #print {display: none;}
+  #pc {display: none;}
+  #tv {display: block;}
+}
