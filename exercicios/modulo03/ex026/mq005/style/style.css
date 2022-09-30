@@ -37,7 +37,6 @@ menu > ul{
 }
 
 menu ul li{
-  display: block;
   padding: 10px;
   background-color: rgb(86, 88, 88);
   border-radius: 5px;
@@ -56,9 +55,7 @@ ul li:hover{
   background-color: rgb(94, 94, 94);
 }
 
-menu{
-  display: none;
-}
+
 
 main{
   width: 60vw;
@@ -78,4 +75,19 @@ main{
 
 p{
   text-indent: 15px;
+}
+
+@media screen and (min-width:768px) {
+  #burguer{
+    display: none;
+  }
+
+  menu{
+    display: block;
+  }
+
+  menu ul li{
+    display: inline-block;
+  }
+
 }
